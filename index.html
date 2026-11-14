@@ -141,7 +141,7 @@ footer{padding-block:28px;color:var(--faint);font-size:12px;border-top:1px solid
       <h2 class="sec-title">맡길 수 있는 작업</h2>
       <p class="sec-lead">아래는 실제로 만들어 써 본 것만 적었습니다. 각 분야의 사례는 아래 작업 사례에 있습니다.</p>
       <div class="svc">
-        <div><span class="mono">OVERLAY</span><h3>방송 오버레이</h3><p>대기·자리 비움·종료 화면, 게임 프레임, 실시간 데이터(스코어보드 등)를 OBS 브라우저 소스로.</p></div>
+        <div><span class="mono">OVERLAY</span><h3>방송 오버레이</h3><p>경기 스코어보드처럼 실시간 데이터를 받아 OBS 브라우저 소스로 띄우는 방송 화면.</p></div>
         <div><span class="mono">GAME SERVER</span><h3>시청자·합동방송 서버</h3><p>서버 구축, 후원 연동 효과, 자체 상점, 운영 도구, 백업과 장애 대응까지.</p></div>
         <div><span class="mono">BOT · TOOL</span><h3>채팅 봇·방송 도구</h3><p>치지직 공식 API 기반 명령어·기록 봇, 디스코드 알림, 데이터 수집 도구.</p></div>
         <div><span class="mono">CHARACTER</span><h3>캐릭터 펫·도트 애니메이션</h3><p>내 캐릭터가 바탕화면을 걸어 다니는 데스크톱 펫, 동작별 픽셀 애니메이션.</p></div>
@@ -200,20 +200,6 @@ footer{padding-block:28px;color:var(--faint);font-size:12px;border-top:1px solid
 
       <article class="case">
         <div class="media">
-          <div class="pair"><img src="img/ov_start.jpg" alt="방송 시작 전 대기 화면" loading="lazy"><img src="img/ov_brb.jpg" alt="자리 비움 화면과 경과 시간" loading="lazy"></div>
-        </div>
-        <div>
-          <div class="meta">방송 오버레이 · 화면 세트</div>
-          <h3>방송 화면 세트</h3>
-          <p class="sub">시작 대기 · 자리 비움 · 방송 종료 · 게임 프레임</p>
-          <div class="body">
-            <p>OBS 브라우저 소스로 넣는 화면 네 장입니다. 시작 카운트다운, 자리 비운 시간, 채널명 배지와 시각을 띄우고, 채널명·색·문구는 설정 파일 한 곳에서 바꿉니다. 방송 송출 설정(1080p60)과 채팅·후원 알림 배치까지 함께 맞췄습니다.</p>
-          </div>
-        </div>
-      </article>
-
-      <article class="case flip">
-        <div class="media">
           <div class="main pix" style="aspect-ratio:16/10"><img class="dots" src="img/pet_walk.gif" data-w="40" data-h="68" width="120" height="204" alt="빨간 머리 고양이 귀 캐릭터가 걷는 픽셀 애니메이션"></div>
         </div>
         <div>
@@ -227,7 +213,7 @@ footer{padding-block:28px;color:var(--faint);font-size:12px;border-top:1px solid
         </div>
       </article>
 
-      <article class="case">
+      <article class="case flip">
         <div class="media">
           <div class="main"><img src="img/banner.jpg" alt="Liz 서명 로고가 들어간 채널 배너" loading="lazy"></div>
         </div>
@@ -279,9 +265,9 @@ footer{padding-block:28px;color:var(--faint);font-size:12px;border-top:1px solid
         <div>
           <div class="eyebrow">CONTACT</div>
           <h2>방송에 필요한 게 있다면 편하게 문의 주세요</h2>
-          <p>유튜브 채널 견리즈로 연락 주시면 확인 후 답변드립니다.</p>
+          <p>메일이나 유튜브 채널 견리즈로 연락 주시면 확인 후 답변드립니다.</p>
         </div>
-        <a class="btn primary" href="https://www.youtube.com/@%EA%B2%AC%EB%A6%AC%EC%A6%88" target="_blank" rel="noopener">유튜브 채널 견리즈 ↗</a>
+        <div class="btns"><a class="btn primary" href="mailto:jkw6483@gmail.com">jkw6483@gmail.com</a><a class="btn" href="https://www.youtube.com/@%EA%B2%AC%EB%A6%AC%EC%A6%88" target="_blank" rel="noopener">유튜브 채널 견리즈 ↗</a></div>
       </div>
     </div>
   </section>
